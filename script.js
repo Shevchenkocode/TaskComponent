@@ -107,7 +107,7 @@ let refreshColum = () => {
                 line--;
                 refreshLine();
                 lineD = null;
-                document.getElementById('rm-line').style.visibility = "visible";
+                document.getElementById('rm-line').style.visibility = "hidden";
                 break;
         }
     })
