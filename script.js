@@ -61,10 +61,6 @@ let refreshColum = () => {
 
             //Remove colum button event
             case 'rm-colum':
-                    if(col == 0){
-                        document.getElementById('rm-colum').style.visibility = "hidden";
-                        break;
-                    }
                     for(let i = 0; i < line + 1; i++){
                         document.getElementById("c" + colD).remove();
                     }
@@ -97,10 +93,6 @@ let refreshColum = () => {
 
             //Remove line button event
             case 'rm-line':
-                if(line == 0){
-                    document.getElementById("rm-line").style.visibility = "hidden";
-                    break;
-                }
                 let l = document.getElementById("l" + lineD);
                 l.remove();
                 document.getElementById("add-line").style.marginTop = t.offsetHeight + 84 + "px";
