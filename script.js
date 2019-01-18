@@ -149,7 +149,7 @@ t.addEventListener('mouseout', (e) => {
         setTimeout( () =>{
             document.getElementById('rm-colum').style.visibility = "hidden";
             document.getElementById('rm-line').style.visibility = "hidden";
-        }, 15000);
+        }, 25000);
 });
 
 //Hiddin remove buttons when only one colums and line
