@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: #00a4c1;
+}
+
+.component{
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-start;
+    width: max-content;
+    width: -moz-max-content;
+    height: auto;
+    border: 1px solid #729ea7;
+    order: 2;
+    margin-left: 77px;
+    margin-top: 77px;
+    position: relative;
+}
+
+#add-colum{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    background-color: #f3a500;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 1.0;
+    transition: 0.5s;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    order: 3;
+    margin-top: 80px;
+    margin-left: 291px;
+    position: absolute;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#add-colum:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+#rm-colum{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    background-color: #b20000;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 1.0;
+    transition: 0.5s;
+    flex-wrap: nowrap;
+    order: 0;
+    margin-left: 80px;
+    margin-top: 25px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#rm-colum:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+#add-line{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    background-color: #f3a500;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 1.0;
+    transition: 0.5s;
+    flex-wrap: nowrap;
+    order: 4;
+    margin-top: 2px;
+    margin-left: 80px;
+}
+
+#add-line:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+#rm-line{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    background-color: #b20000;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 1.0;
+    transition: 0.5s;
+    flex-wrap: nowrap;
+    order: 1;
+    margin-top: 80px;
+    margin-left: 25px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#rm-line:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
