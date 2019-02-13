@@ -129,5 +129,5 @@ t.addEventListener('mouseout', (e) => {
     setTimeout( () =>{
         rmC.style.visibility = "hidden";
         rmL.style.visibility = "hidden";
-    }, 18000);
+    }, 25000);
 });
