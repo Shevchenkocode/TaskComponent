@@ -26,6 +26,8 @@ html, body{
     align-items: flex-start;
     width: max-content;
     width: -moz-max-content;
+    width: -o-max-content;
+    width: -ms-max-content;
     height: auto;
     border: 1px solid #729ea7;
     order: 2;
